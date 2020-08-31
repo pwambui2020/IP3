@@ -45,4 +45,9 @@ container { align-items: center;
 
 }
 
-  
+  #what{
+    cursor: pointer;
+  }
+  #design{
+    display:none;
+  }
