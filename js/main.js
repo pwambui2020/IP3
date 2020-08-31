@@ -1,0 +1,19 @@
+
+$(document).ready(function(){
+    $("#img1").hover(function(){
+        console.log('any');
+      $("#design-div").toggle(1000);
+    });
+  });
+  $(document).ready(function(){
+    $("#img2").hover(function(){
+        console.log('any');
+      $("#development-div").toggle(1000);
+    });
+  });
+  $(document).ready(function(){
+    $("#img3").hover(function(){
+        console.log('any');
+      $("#planning-div").toggle(1000);
+    });
+  });
