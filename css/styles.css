@@ -1,6 +1,48 @@
-#background-image {
+/* #background-image {
     border-style: none;
 }
-# container { align-items: center;
+container { align-items: center;
+
+} */
+
+/* body {
+    background-image: url('img/s_image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 20%;
+  } */
+
+  .jumbotron-fluid {
+    background-image: url('/img/h_img.jpg');
+    height:100vh ;
+    margin: 0;
+
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    background-size: cover;
+  }
+.s-image{
+  background-image: url('/img/s_image.jpg');
+  background-repeat: no-repeat;
+  height:50vh;
+  
+}
+.contact{
+  background-image: url("/img/c_image.jpg");
+    background-repeat: no-repeat;
+  background-color: black;
+}
+.opc{
+  opacity: 4;
+}
+.frm-input{
+  background: transparent ;
+  border: 1px solid #ffffff;
+  color: white
+}
+.frm-input::placeholder{
+  color : white
 
 }
+
+  
