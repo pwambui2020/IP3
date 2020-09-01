@@ -44,10 +44,32 @@ container { align-items: center;
   color : white
 
 }
+#design-div{
+  display: none;
 
-  #what{
-    cursor: pointer;
-  }
-  #design{
-    display:none;
-  }
+}
+#development-div{
+  display: none;
+}
+#planning-div{
+  display:none;
+}
+.porttext{
+  margin-top: -70px; 
+  display: none;
+  color : white;
+  z-index: -1;
+  position: absolute;
+}
+#port1{
+  position: relative; 
+} 
+
+/* .porttext{
+  margin-top: -70px; 
+  display: none;
+  position: absolute;
+}
+#port2{
+  position: relative;
+} */
