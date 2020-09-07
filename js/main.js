@@ -1,60 +1,107 @@
 
 $(document).ready(function(){
-    $("#img1").hover(function(){
-        console.log('any');
-      $("#design-div").toggle(1000);
+    $("#img1").click(function(){
+       $ ("#img1").slideDown(1000).hide(600);
+      $("#design-div").show(1000);
     });
   });
+
   $(document).ready(function(){
-    $("#img2").hover(function(){
-        console.log('any');
-      $("#development-div").toggle(1000);
+    $("#design-div").click(function(){
+       $ ("#design-div").slideDown(1000).hide(600);
+      $("#img1").show(1000);
     });
   });
+
   $(document).ready(function(){
-    $("#img3").hover(function(){
-        console.log('any');
-      $("#planning-div").toggle(1000);
+    $("#img2").click(function(){
+       $ ("#img2").slideDown(1000).hide(600);
+      $("#development-div").show(1000);
     });
- $('#port1').hover(function(){
-     $('.porttext').toggle();
- })
+  });
+
+  $(document).ready(function(){
+    $("#development-div").click(function(){
+       $ ("#development-div").slideDown(1000).hide(600);
+      $("#img2").show(1000);
+    });
+  });
+
+  
+  $(document).ready(function(){
+    $("#img3").click(function(){
+       $ ("#img3").slideDown(1000).hide(600);
+      $("#planning-div").show(1000);
+    });
+  });
+
+  $(document).ready(function(){
+    $("#planning-div").click(function(){
+       $ ("#planning-div").slideDown(1000).hide(600);
+      $("#img3").show(1000);
+    });
+  });
+ 
+ $(document).ready(function(){
+  $("#work1").mouseover(function(){
+    $("#overlay").show();
+}).mouseout(function(){
+  $("#overlay").hide();
+  })
 });
 
 $(document).ready(function(){
-  $("#port1").hover(function(){
-  document.getElementById('porttext1').style.zIndex="1";
+  $("#work2").mouseover(function(){
+    $("#overlay2").show();
+}).mouseout(function(){
+  $("#overlay2").hide();
   })
-  
-  $("#port2").hover(function(){
-  document.getElementById('porttext2').style.zIndex="1";
+});
+
+$(document).ready(function(){
+  $("#work3").mouseover(function(){
+    $("#overlay3").show();
+}).mouseout(function(){
+  $("#overlay3").hide();
   })
+});
 
-
-  $("#port3").hover(function(){
-  document.getElementById('porttext3').style.zIndex="1";
+$(document).ready(function(){
+  $("#work4").mouseover(function(){
+    $("#overlay4").show();
+}).mouseout(function(){
+  $("#overlay4").hide();
   })
+});
 
-
-  $("#port4").hover(function(){
-  document.getElementById('porttext4').style.zIndex="1";
+$(document).ready(function(){
+  $("#work5").mouseover(function(){
+    $("#overlay5").show();
+}).mouseout(function(){
+  $("#overlay5").hide();
   })
+});
 
-
-  $("#port5").hover(function(){
-  document.getElementById('porttext5').style.zIndex="1";
+$(document).ready(function(){
+  $("#work6").mouseover(function(){
+    $("#overlay6").show();
+}).mouseout(function(){
+  $("#overlay6").hide();
   })
+});
 
-
-  $("#port6").hover(function(){
-  document.getElementById('porttext6').style.zIndex="1";
+$(document).ready(function(){
+  $("#work7").mouseover(function(){
+    $("#overlay7").show();
+}).mouseout(function(){
+  $("#overlay7").hide();
   })
+});
 
-  $("#port7").hover(function(){
-    document.getElementById('porttext7').style.zIndex="1";
-    })
-
-    $("#port8").hover(function(){
-      document.getElementById('porttext8').style.zIndex="1";
-      })
+$(document).ready(function(){
+  $("#work8").mouseover(function(){
+    $("#overlay8").show();
+}).mouseout(function(){
+  $("#overlay8").hide();
+  })
 });
