@@ -13,7 +13,7 @@ container { align-items: center;
   } */
 
   .jumbotron-fluid {
-    background-image: url('/img/h_img.jpg');
+    background-image: url('https://imgur.com/jlgyXOS.jpg');
     height:100vh ;
     margin: 0;
 
@@ -22,13 +22,13 @@ container { align-items: center;
     background-size: cover;
   }
 .s-image{
-  background-image: url('/img/s_image.jpg');
+  background-image: url('https://imgur.com/emLVC68.jpg');
   background-repeat: no-repeat;
   height:50vh;
   
 }
 .contact{
-  background-image: url("/img/c_image.jpg");
+  background-image: url("https://imgur.com/cOV9f2u.jpg");
     background-repeat: no-repeat;
   background-color: black;
 }
