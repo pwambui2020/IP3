@@ -1,26 +1,10 @@
-/* #background-image {
-    border-style: none;
-}
-container { align-items: center;
-
-} */
-
-/* body {
-    background-image: url('img/s_image.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100% 20%;
-  } */
-
-  .jumbotron-fluid {
+ .jumbotron-fluid {
     background-image: url('/img/h_img.jpg');
     height:100vh ;
     margin: 0;
-
-    /* background-repeat: no-repeat;
-    background-attachment: fixed; */
     background-size: cover;
   }
+  
 .s-image{
   background-image: url('/img/s_image.jpg');
   background-repeat: no-repeat;
@@ -65,11 +49,3 @@ container { align-items: center;
   position: relative; 
 } 
 
-/* .porttext{
-  margin-top: -70px; 
-  display: none;
-  position: absolute;
-}
-#port2{
-  position: relative;
-} */

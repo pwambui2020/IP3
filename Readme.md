@@ -1,10 +1,13 @@
 # IP3# Delani-studio 
 ### By **Paulyne Wambui**
 ## description
-Delani studio is that offer picture and video services.
-## Setup/Instatllation Requirements 
-* Should have a working github account
-* Push the project to the account
+Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+## Installation Requirements 
+* Should have a working github account 
+* Forked the project inorder to work on it
+* modified the project and worked on it as required
+* Push the project to the github account
 ## Known Bugs
 no bugs found
 ## technologies used 
@@ -12,6 +15,7 @@ no bugs found
 2. CSS
 3. Jquery
 4. Javascript
+5. Bootstrap
 
 MIT License
 
