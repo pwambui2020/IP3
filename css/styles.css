@@ -1,19 +1,24 @@
- .jumbotron-fluid {
+ /* .jumbotron-fluid {
     background-image: url('/img/h_img.jpg');
-  }
+  } */
 /* #background-image {
     border-style: none;
 }
 container { align-items: center;
 
 } */
+.jumbotron-fluid {
+  background-image: url("../images/backgrounds/h_img.jpg");
+  background-size: cover;
+  height: 100vh;
+}
 
-/* body {
+ body {
     background-image: url('img/s_image.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 20%;
-  } */
+  } 
 
   .jumbotron-fluid {
     background-image: url('https://imgur.com/jlgyXOS.jpg');
